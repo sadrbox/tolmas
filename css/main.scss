@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-bar {
+  height: 80px;
+  display: flex;
+  background-color: green;
+  align-items: center;
+
+  a {
+    background-color: cyan;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
