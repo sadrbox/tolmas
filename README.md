@@ -1,8 +1,10 @@
+https://www.youtube.com/watch?v=VzWBLj_CfpE
+
 function togit(){
-	git fetch &&
-	git add . &&
-	git commit -m "$(date +%c)" &&
-	git push origin main
+git fetch &&
+git add . &&
+git commit -m "$(date +%c)" &&
+git push origin main
 }
 
 # Getting Started with Create React App
